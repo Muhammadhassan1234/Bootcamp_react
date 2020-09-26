@@ -31,4 +31,4 @@ jobs:
       - name: installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ real-lettuce.surge.sh  --token ${{ secrets.surge_token }}
+        run: surge ./ real-lettuce.surge.sh --token "bef327ee9c202f6fb9ea400211c45c9b"
